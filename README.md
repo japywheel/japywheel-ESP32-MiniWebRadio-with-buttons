@@ -1,16 +1,20 @@
 # Schreibfaul1 (Wolle)'s ESP32-S3-MiniWebRadio V4 with 5 way Control Buttons
 
-Schreibfaul1 created one of the, if  not the best webradio. The only downside for me was not having button control. The only thing I changed was to add the button control and duplicating the code as used for the remote control. The left-right-up-down & OK essentially mimics the button presses of the infrared remote control. It is probably not the cleanest integration but for me it works and *it may create some insparation for more code savvy people to do it properly.* Due to the number of GPIOs available this may only work with TFT controllers < 7
+Schreibfaul1 created one of the best, if not *the* best, web radios. The only downside for me was the lack of button control. 
 
-**All rewards go the Schreibfaul1 and others who have committed to this fantastic web radio**
+The only change I made was adding button control by duplicating the code used for the remote control. The **left, right, up, down, and OK buttons** essentially mimic the infrared remote control's inputs. It's probably not the cleanest integration, but it works for me — and **might inspire more code-savvy folks to implement it properly.**
 
-The control can be individual buttons or joystick like 5 way button. 
+Due to the limited number of available GPIOs, this may only work with TFT controller less than '7'
+
+**All credit goes to Schreibfaul1 and others who contributed to this fantastic web radio project.**
+
+The controls can be implemented using individual buttons or a joystick-style 5-way button.(more compact)
 
 <img src="docs/SW-TM-5WN.jpg" width="200"/>
 
-This is more compact. As the ESP-S3 has internal pull up resistors, no eternal rxesistors are used.
+As the ESP-S3 has internal pull up resistors, no eternal rxesistors are used.
 
-for default pins the following GPIOs are defined:
+For default pins the following GPIOs are defined:
 
 `#define BUT_UP       40`
 `#define BUT_DOWN     41`
@@ -18,13 +22,14 @@ for default pins the following GPIOs are defined:
 `#define BUT_RIGHT    47`
 `#define BUT_OK       21`
 
-They can be changed in the `src / common.h` file 
+and can be changed in the `src / common.h` file 
 
 ![Display](docs/MiniWebRadio.jpg)
 
 MiniWebRadio Features:
 <ul>
 <li>User interfaces: TFT touchscreen display, web browser and FTP</li>
+<li>Optional 5 button or 5 way joystick control</li>li>   
 <li>Functions: WiFi Radio, Digital Clock, MP3 player, Alarm, Sleep timer, adjust screen brightness, EQ settings and Volume, web browser User Interface, access SD card via FTP (e.g. FileZilla), IR remote controller support</li>
 <li>Up to 999 pre-set stations can be held in stations.csv file on SD card (can edit using web UI)</li>
 <li>Each station can display its own station icon (when saved to SD card)</li>
