@@ -6,7 +6,6 @@ Schreibfaul1 created one of the, if  not the best webradio. The only downside fo
 
 The control can be individual buttons or joystick like 5 way button. 
 
-![Display](docs/SW-TM-5WN.jpg)
 <img src="docs/SW-TM-5WN.jpg" width="200"/>
 
 This is more compact. As the ESP-S3 has internal pull up resistors, no eternal rxesistors are used.
