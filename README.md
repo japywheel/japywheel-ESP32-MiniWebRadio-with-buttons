@@ -1,4 +1,4 @@
- ESP32-S3-MiniWebRadio V4
+ Schreibfaul1 Wolle ESP32-S3-MiniWebRadio V4 with 5 way Control Buttons
 
 ![Display](docs/MiniWebRadio.jpg)
 
