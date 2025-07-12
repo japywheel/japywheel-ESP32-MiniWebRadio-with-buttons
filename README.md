@@ -29,7 +29,7 @@ and can be changed in the `src / common.h` file
 MiniWebRadio Features:
 <ul>
 <li>User interfaces: TFT touchscreen display, web browser and FTP</li>
-<li>Optional 5 button or 5 way joystick control</li>li>   
+<li>Optional 5 button or 5 way joystick control</li>   
 <li>Functions: WiFi Radio, Digital Clock, MP3 player, Alarm, Sleep timer, adjust screen brightness, EQ settings and Volume, web browser User Interface, access SD card via FTP (e.g. FileZilla), IR remote controller support</li>
 <li>Up to 999 pre-set stations can be held in stations.csv file on SD card (can edit using web UI)</li>
 <li>Each station can display its own station icon (when saved to SD card)</li>
