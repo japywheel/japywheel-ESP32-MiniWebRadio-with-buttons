@@ -9,11 +9,11 @@ The control can be individual buttons or joystick like 5 way button. This is mor
 for default pins the following GPIOs are defined:
 
 '
-        #define BUT_UP       40 
-        #define BUT_DOWN     41 
-        #define BUT_LEFT     42 
-        #define BUT_RIGHT    47   
-        #define BUT_OK       21 '
+        '#define BUT_UP       40' 
+        `#define BUT_DOWN     41 `
+        `#define BUT_LEFT     42 
+        #define BUT_RIGHT    47`   
+        #define BUT_OK       21 
 
 
 
