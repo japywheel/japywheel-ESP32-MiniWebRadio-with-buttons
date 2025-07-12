@@ -1,6 +1,6 @@
 # Schreibfaul1 Wolle ESP32-S3-MiniWebRadio V4 with 5 way Control Buttons
 
-Schreibfaul1 created one of the, if  not the best webradio. The only downside for me was not having button control. The only thing I changed was to add the button control and duplicating the code as used for the remote control. The left-right-up-down & OK essentially mimics the button presses of the infrared remote control. It is probably not the cleanest integration but for me it works and in may create some insparation for more code savvy people to do it properly.
+Schreibfaul1 created one of the, if  not the best webradio. The only downside for me was not having button control. The only thing I changed was to add the button control and duplicating the code as used for the remote control. The left-right-up-down & OK essentially mimics the button presses of the infrared remote control. It is probably not the cleanest integration but for me it works and in may create some insparation for more code savvy people to do it properly. Due to the number of GPIOs available this may only work with TFT controllers < 7
 
 **All rewards go the Schreibfaul1 and others who have committed to this fantastic web radio**
 
@@ -12,8 +12,9 @@ for default pins the following GPIOs are defined:
 `#define BUT_DOWN     41`
 `#define BUT_LEFT     42`
 `#define BUT_RIGHT    47`
-`#define BUT_OK       21` 
+`#define BUT_OK       21`
 
+They can be changed in the `src / common.h` file 
 
 
 ![Display](docs/joystick.jpg)
