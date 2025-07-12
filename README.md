@@ -4,7 +4,11 @@ Schreibfaul1 created one of the, if  not the best webradio. The only downside fo
 
 **All rewards go the Schreibfaul1 and others who have committed to this fantastic web radio**
 
-The control can be individual buttons or joystick like 5 way button. This is more compact. As the ESP-S3 has internal pull up resistors, no eternal rxesistors are used.
+The control can be individual buttons or joystick like 5 way button. 
+
+![Display](docs/SW-TM-5WN.jpg)
+
+This is more compact. As the ESP-S3 has internal pull up resistors, no eternal rxesistors are used.
 
 for default pins the following GPIOs are defined:
 
@@ -15,11 +19,6 @@ for default pins the following GPIOs are defined:
 `#define BUT_OK       21`
 
 They can be changed in the `src / common.h` file 
-
-
-![Display](docs/joystick.jpg)
-
-
 
 ![Display](docs/MiniWebRadio.jpg)
 
