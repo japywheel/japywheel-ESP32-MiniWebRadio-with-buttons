@@ -1,6 +1,6 @@
 # Schreibfaul1 (Wolle)'s ESP32-S3-MiniWebRadio V4 with 5 way Control Buttons
 
-Schreibfaul1 created one of the, if  not the best webradio. The only downside for me was not having button control. The only thing I changed was to add the button control and duplicating the code as used for the remote control. The left-right-up-down & OK essentially mimics the button presses of the infrared remote control. It is probably not the cleanest integration but for me it works and in may create some insparation for more code savvy people to do it properly. Due to the number of GPIOs available this may only work with TFT controllers < 7
+Schreibfaul1 created one of the, if  not the best webradio. The only downside for me was not having button control. The only thing I changed was to add the button control and duplicating the code as used for the remote control. The left-right-up-down & OK essentially mimics the button presses of the infrared remote control. It is probably not the cleanest integration but for me it works and *it may create some insparation for more code savvy people to do it properly.* Due to the number of GPIOs available this may only work with TFT controllers < 7
 
 **All rewards go the Schreibfaul1 and others who have committed to this fantastic web radio**
 
