@@ -12,7 +12,7 @@ The controls can be implemented using individual buttons or a joystick-style 5-w
 
 <img src="docs/SW-TM-5WN.jpg" width="200"/>
 
-As the ESP-S3 has internal pull up resistors, no eternal rxesistors are used.
+As the ESP-S3 has internal pull up resistors, no external resistors are required.
 
 For default pins the following GPIOs are defined:
 
