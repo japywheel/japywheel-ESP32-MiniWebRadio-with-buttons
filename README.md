@@ -24,6 +24,8 @@ For default pins the following GPIOs are defined:
 
 and can be changed in the `src / common.h` file 
 
+The original project can be found here: [MiniWebRadio](https://github.com/schreibfaul1/ESP32-MiniWebRadio)
+
 ![Display](docs/MiniWebRadio.jpg)
 
 MiniWebRadio Features:
