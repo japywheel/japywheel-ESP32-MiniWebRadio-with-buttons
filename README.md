@@ -1,5 +1,7 @@
 # Schreibfaul1 (Wolle)'s ESP32-S3-MiniWebRadio V4 with 5 way Control Buttons
 
+<img src="docs/miniweb-1024x537.jpg" width="600"/>
+
 Schreibfaul1 created one of the best, if not *the* best, web radios. The only downside for me was the lack of button control. 
 
 The only change I made was adding button control by duplicating the code used for the remote control. The **left, right, up, down, and OK buttons** essentially mimic the infrared remote control's inputs. It's probably not the cleanest integration, but it works for me — and **might inspire more code-savvy folks to implement it properly.**
